@@ -1,7 +1,28 @@
 <!DOCTYPE html>
 <html  xmlns="http://www.w3.org/1999/xhtml"  xml:lang="en"  lang="en">
 <head>
-<title>我们 </title>		
+<title>我们 </title>
+<audio autoplay="autopaly" loop="loop" id="audios">
+    <source src="薛之谦 - 天外来物.mp3" type="audio/mp3" />
+</audio>
+<button id="play-button" style="width: 40px; height: 40px;border-radius: 50%">| |</button>
+<script>
+var music = document.getElementById('audios');
+var playButton = document.getElementById('play-button');
+playButton.addEventListener('click', function() 
+{
+	if(music.paused)
+	{
+		music.play();
+		playButton.innerHTML = '▶';
+	}
+	else
+	{
+		music.pause();
+		playButton.innerHTML = '| |';
+	}	    
+});
+</script>	
 <meta name="keywords" content=" ">
 <meta name="description" content="   ">
 <meta name="author" content="www.">	
@@ -217,13 +238,15 @@ oncut="return false;" >
 						<span class="back"><img src="images/nav3.png" alt="" usemap="#back"><a href="index.html#close">返回</a></span>
 						<div class="pad">
 							<h2>絮叨絮叨</h2>
+							我知道有时候我们会有分歧和矛盾，但是我们相互理解、包容和支持，这是我们的感情更加牢固的原因。我会坚定不移地爱你，因为你是我生命中最美好的事情。我愿意为你付出一切，为了你，我可以放弃任何事情。我相信你也会为我做同样的事情。从今天开始，我想对你说，让我们一起开启美好的明天，充满爱和幸福的未来，让我们走过每一个幸福和不幸的时刻，不离不弃，相互依靠。我爱你！
+									
                             <div class="relative">
                                 <div class="scroll">
-                                    <div style="width:100%;float: left; border-bottom: 1px solid #CCCCCC;">张静波<br/><span style="float: right"> --by </span></div>
 
 
 
-                                    <div style="width:100%;float: left">分享我所知道的<br/><span style="float: right"> --by </span></div>
+
+                                    <div style="width:100%;float: left"><br/><span style="float: right"> --by 张静波</span></div>
                                 </div>
                             </div>
 						</div>
@@ -233,6 +256,13 @@ oncut="return false;" >
 						<span class="back"><img src="images/nav4.png" alt="" usemap="#back"><a href="index.html#close">返回</a></span>
 						<div class="pad">
 							<h2>祝福我们</h2>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;饮一世尘旧梦，<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;等今生与你相逢，<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;繁华阅尽，落地无声，<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这人间千般娇艳，<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;都不及你模样动人。<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;愿倾之我毕生之幸，<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;给你一世宠爱！<br />
                             <div class="relative">
                                 <div class="scroll">
 
