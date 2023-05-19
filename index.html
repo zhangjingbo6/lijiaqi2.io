@@ -5,7 +5,7 @@
 <audio autoplay="autopaly" loop="loop" id="audios">
     <source src="薛之谦 - 天外来物.mp3" type="audio/mp3" />
 </audio>
-<button id="play-button" style="width: 40px; height: 40px;border-radius: 50%">| |</button>
+<button id="play-button" style="width: 40px; height: 40px;border-radius: 50%">▶</button>
 <script>
 var music = document.getElementById('audios');
 var playButton = document.getElementById('play-button');
@@ -14,12 +14,12 @@ playButton.addEventListener('click', function()
 	if(music.paused)
 	{
 		music.play();
-		playButton.innerHTML = '▶';
+		playButton.innerHTML = '| |';
 	}
 	else
 	{
 		music.pause();
-		playButton.innerHTML = '| |';
+		playButton.innerHTML = '▶';
 	}	    
 });
 </script>	
